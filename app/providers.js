@@ -1,9 +1,9 @@
 "use client";
 
 import * as React from "react";
-import { NextUIProvider } from "@nextui-org/system";
 import { useRouter } from "next/navigation";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
+import {NextUIProvider} from '@nextui-org/react'
 
 export function Providers({ children, themeProps }) {
   const router = useRouter();
